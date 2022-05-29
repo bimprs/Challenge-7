@@ -7,17 +7,17 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 const Chart = () => {
   const data = {
     labels: [
-      "Inova",
-      "Pak Jero",
-      "Hyundai Santa FE",
-      "Toyota Fortunner",
-      "Jeep Wrangler JK",
-      "Suzuki Jimny",
+      "MOBIL A",
+      "MOBIL B",
+      "MOBIL C",
+      "MOBIL D",
+      "MOBIL E",
+      "MOBIL F",
     ],
     datasets: [
       {
         label: "# of Votes",
-        data: [12, 19, 3, 5, 2, 3],
+        data: [5, 42, 73, 32, 26, 17],
         backgroundColor: [
           "rgba(255, 99, 132, 0.2)",
           "rgba(54, 162, 235, 0.2)",
@@ -40,8 +40,8 @@ const Chart = () => {
   };
   return (
     <>
-      <div style={{ margin: "50px auto", width: "30%" }}>
-        <h2 className="text-center">Data Mobil Paling Banyak Peminat</h2>
+      <div style={{ padding: "20px", margin: "50px auto", width: "30%" }}>
+        <h2 className="text-center" >Data Mobil Paling Banyak Peminat</h2>
         <Pie data={data} />
       </div>
     </>

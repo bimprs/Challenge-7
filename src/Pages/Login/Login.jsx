@@ -63,12 +63,12 @@ export default function Login() {
             <div className="col-4">
               <div className="form-head">
                 <img src={Logo} alt="" />
-                <h1>Welcome to sign in page</h1>
+                <h1 style={{fontFamily: "Helvetica"}}>Welcome to sign in page</h1>
               </div>
 
               <div className="form-content">
                 <div className="mb-3">
-                  <label className="form-label">Email</label>
+                  <label className="form-label" style={{fontFamily: "Helvetica"}}>Email</label>
                   <input
                     type="email"
                     className="form-control"
@@ -84,7 +84,7 @@ export default function Login() {
                   />
                 </div>
                 <div className="mb-3">
-                  <label className="form-label">Password</label>
+                  <label className="form-label" style={{fontFamily: "Helvetica"}}>Password</label>
                   <input
                     type="password"
                     className="form-control"
